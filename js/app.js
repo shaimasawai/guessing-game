@@ -1,6 +1,6 @@
 'User strict';
 
-
+/*
 let askUser = prompt ('Whats Your Name? ');
 
 alert ('I hope you have nice day ' + askUser );
@@ -86,14 +86,97 @@ alert ('I hope you have nice day ' + askUser );
 
           alert('Thanks for answers '+askUser  );
 
-          
+          */
+
+/*
+if (user == x){
+    alert(' Correct guess ');
+}
+ else {
+     if (user < x){
+         alert(' Too low ');
+     }
+     else{
+         alert(' Too high');
+         
+     }
+     
+ }
+*/
+
+
+
+let counter = 0
+ 
+ 
+ let user = prompt('Please guess number ^_^ ');
+ let numGuess = Number(user);
+ 
+ let x= 20;
+
+
+
+ for(i = 0; i <= 3 ; i++ ){
+
+  if (numGuess === x){
+    alert(' correctr num ');
+    counter++
+    break;
+  }
+ else if (numGuess < x){
+
+    alert(' Too low ');
+
+    numGuess = prompt('Please guess new number ^_^ ');
+    
+ }
+
+else if (numGuess > x){
+
+    alert(' Too high');
+    numGuess = prompt('Please guess new number ^_^ ');
+    
+}
+}
+
+
+alert(' the correct number is  ' + x );
+
+alert(' you get ' + counter + '/4');
 
 
 
 
+
+let correct = 0 ;
+
+function question7(){
+
+let guesscolor = [ 'read' , 'black' , 'white' , 'green' , 'yallow' ];
+
+
+for( let w=0 ; w <6 ; w++){
+    
+    let askcolor = prompt(' can you guess one of my favorite color ');
+
+    
+    if(guesscolor.includes(askcolor.toLocaleLowerCase)){
+
+       alert(' you are correctl');
+       correct++;
+
+       break;
+    }
+
+    else{
+        alert(' please try again ');
+    }
+
+}}
 
   
-
+question7();
+alert( ' you get ' + correct + ' /7');
 
 
 
