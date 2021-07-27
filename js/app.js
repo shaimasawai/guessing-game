@@ -5,7 +5,7 @@ let askUser = prompt ('Whats Your Name? ');
 
 alert ('I hope you have nice day ' + askUser );
 
- let askDrow = confirm (' Do You DO Drow?');
+ let askDrow = prompt (' Do You DO Drow?');
  switch (askDrow) {
      case true :
          alert (' You Are Talented');
@@ -66,6 +66,23 @@ alert ('I hope you have nice day ' + askUser );
                    alert('You didnt answer');
                   // console.log(askwhither); 
           }
+
+
+          let askfood = prompt(' Do you like munsaf ? ');
+          switch(askfood){
+              case'yes'|| 'y':
+              alert('good choose');
+              console.log(askfood);
+              break;
+              case'no':
+              alert('that is sad');
+              console.log (askfood);
+              break;
+              default:
+                  alert('you didnot answer');
+                 // console.log (askfood);              
+          }
+          
 
           alert('Thanks for answers '+askUser  );
 
