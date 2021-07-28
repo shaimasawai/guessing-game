@@ -1,6 +1,6 @@
 'User strict';
 
-
+function NameUser();{
 let askUser = prompt ('Whats Your Name? ');
 
 alert ('I hope you have nice day ' + askUser );
@@ -18,9 +18,12 @@ alert ('I hope you have nice day ' + askUser );
              default:
                  alert('You didnt answer');
                 // console.log(askDrow);
-
  }
+}
 
+    NameUser();
+
+    function favmoive(){
   let askmovie = prompt(' Do you like moive? : )' , ' you answer should be in uppercase');
   switch( askmovie){
       case'YES':
@@ -35,6 +38,11 @@ alert ('I hope you have nice day ' + askUser );
           alert(' You didnt answer ');
          // console.log(askmovie);
   }
+}
+    favmoive();
+
+
+    function favpapsi(){
 
           let askpepsi = prompt(' Do like papsi?' ,' you answer should be is Y OR N');
           switch(askpepsi){
@@ -50,7 +58,11 @@ alert ('I hope you have nice day ' + askUser );
                           alert(' You didnt answer ');
                           //console.log(askpepsi);
 
-          }
+          }}
+          favpapsi();
+
+
+          function winterwhither(){
 
           let askwhither =prompt(' Do you like winter?');
           switch(askwhither){
@@ -65,8 +77,12 @@ alert ('I hope you have nice day ' + askUser );
                default:
                    alert('You didnt answer');
                   // console.log(askwhither); 
-          }
+          }}
+          winterwhither();
 
+
+
+          function favmunsaf(){
 
           let askfood = prompt(' Do you like munsaf ? ');
           switch(askfood){
@@ -81,32 +97,17 @@ alert ('I hope you have nice day ' + askUser );
               default:
                   alert('you didnot answer');
                  // console.log (askfood);              
-          }
+          }}
+          favmunsaf();
           
 
           alert('Thanks for answers '+askUser  );
 
-          
-
-if (user == x){
-    alert(' Correct guess ');
-}
- else {
-     if (user < x){
-         alert(' Too low ');
-     }
-     else{
-         alert(' Too high');
-         
-     }
      
- }
-
-
 
 
 let counter = 0
- 
+ function guseenumber(){
  
  let user = prompt('Please guess number ^_^ ');
  let numGuess = Number(user);
@@ -136,7 +137,8 @@ else if (numGuess > x){
     numGuess = prompt('Please guess new number ^_^ ');
     
 }
-}
+}}
+guseenumber();
 
 
 alert(' the correct number is  ' + x );
