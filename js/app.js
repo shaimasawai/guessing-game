@@ -1,6 +1,6 @@
 'User strict';
 
-/*
+
 let askUser = prompt ('Whats Your Name? ');
 
 alert ('I hope you have nice day ' + askUser );
@@ -86,9 +86,8 @@ alert ('I hope you have nice day ' + askUser );
 
           alert('Thanks for answers '+askUser  );
 
-          */
+          
 
-/*
 if (user == x){
     alert(' Correct guess ');
 }
@@ -102,7 +101,7 @@ if (user == x){
      }
      
  }
-*/
+
 
 
 
@@ -116,7 +115,7 @@ let counter = 0
 
 
 
- for(i = 0; i <= 3 ; i++ ){
+ for(i = 0; i <= 4 ; i++ ){
 
   if (numGuess === x){
     alert(' correctr num ');
