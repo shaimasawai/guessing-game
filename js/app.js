@@ -1,7 +1,7 @@
 'User strict';
-
-function NameUser();{
 let askUser = prompt ('Whats Your Name? ');
+function NameUser(){
+
 
 alert ('I hope you have nice day ' + askUser );
 
@@ -97,11 +97,14 @@ alert ('I hope you have nice day ' + askUser );
               default:
                   alert('you didnot answer');
                  // console.log (askfood);              
-          }}
+          }
+
+          alert('Thanks for answers '+ askUser  );
+        }
           favmunsaf();
           
 
-          alert('Thanks for answers '+askUser  );
+          
 
      
 
@@ -137,13 +140,15 @@ else if (numGuess > x){
     numGuess = prompt('Please guess new number ^_^ ');
     
 }
-}}
-guseenumber();
-
+}
 
 alert(' the correct number is  ' + x );
-
 alert(' you get ' + counter + '/4');
+
+
+}
+guseenumber();
+
 
 
 
